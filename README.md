@@ -9,7 +9,7 @@ A Python web app that calibrates drift and volatility to real price history and 
 | | In the browser (stlite) | On a server (`streamlit run`) |
 |---|---|---|
 | Symbols | About 110 Bursa Malaysia and US stocks plus both indices, from the portfolio's [self-updating data](https://github.com/BoonWui/BoonWui.github.io) | Any Yahoo Finance symbol: `AAPL`, `1155.KL`, `BTC-USD`, `CL=F` |
-| Prices | Refreshed hourly in market hours by GitHub Actions | Downloaded live with yfinance |
+| Prices | Refreshed during market hours by GitHub Actions | Downloaded live with yfinance |
 
 The app detects where it runs (`sys.platform == "emscripten"` in the browser) and picks the data source.
 
