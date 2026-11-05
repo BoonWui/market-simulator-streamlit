@@ -25,3 +25,5 @@ Python · Streamlit · yfinance · NumPy · pandas · Plotly
 > For education only. Not financial advice.
 
 Part of [BoonWui's portfolio](https://boonwui.github.io). A browser-only version is at [boonwui.github.io/monte-carlo](https://boonwui.github.io/monte-carlo/).
+
+> **Disclaimer:** Data and results may be inaccurate. For education only. Use at your own risk. **Not financial advice.**

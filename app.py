@@ -7,6 +7,7 @@ import yfinance as yf
 
 st.set_page_config(page_title="Market Simulator", page_icon="📈", layout="wide")
 st.title("Market Simulator")
+st.warning("**Disclaimer:** Data may be delayed, incomplete or inaccurate. For education and research only; use at your own risk. **Not financial advice.**")
 st.caption("Monte Carlo price paths calibrated to live Yahoo Finance data · by [BoonWui](https://boonwui.github.io)")
 
 with st.sidebar:
